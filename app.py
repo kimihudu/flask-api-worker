@@ -9,7 +9,7 @@ def hello():
     return datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 @app.route('/<string:name>')
-def hello(name):
+def helloName(name):
     return "hello %s" %name
 
 
